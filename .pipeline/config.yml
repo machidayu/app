@@ -10,7 +10,7 @@ stages:
   Additional Unit Tests:
     npmExecuteScripts: false
   Acceptance:
-    cloudFoundryDeploy: true
+    cloudFoundryDeploy: false
     cfApiEndpoint: "https://api.cf.us10-001.hana.ondemand.com"
     cfOrg: "c6ea56f1trial"
     cfSpace: "dev"
