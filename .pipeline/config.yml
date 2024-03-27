@@ -13,8 +13,8 @@ stages:
     cloudFoundryDeploy: true
     cfApiEndpoint: "https://api.cf.us10-001.hana.ondemand.com"
     cfOrg: "c6ea56f1trial"
-    cfSpace: "space"
-    cfAppName: "dev"
+    cfSpace: "dev"
+    cfAppName: "app"
     cfCredentialsId: "deploy-to-cf"
     deployType: "standard"
     npmExecuteEndToEndTests: false
